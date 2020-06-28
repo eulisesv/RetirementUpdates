@@ -78,7 +78,7 @@ while (driver.title).startswith('Error'): #this is needed in case of incorrect l
     time.sleep(3) #wait 10 seconds
 else:
     #take the browser to the monthly statements page for the IRA account
-    driver.get('https://retiretxn.fidelity.com/nbretail/savings2/navigation/dc/OnlineStatement?client=000400935&plan=35004')
+    driver.get('https://retiretxn.fidelity.com/nbretail/savings2/navigation/dc/OnlineStatement')
 
 
 # In[ ]:
